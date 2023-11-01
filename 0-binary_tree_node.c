@@ -3,11 +3,11 @@
 /**
  * binary_tree_node - Create a binary node
  * @parent: node parent
- * @val: Value of the node
+ * @value: Value of the node
  * Return: the new node
  */
 
-binary_tree_t *binary_tree_node(binary_tree_t *parent, int val)
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
 
@@ -16,7 +16,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int val)
 	{
 		return (NULL);
 	}
-	new_node->n = val;
+	new_node->n = value;
 	new_node->parent = parent;
 	new_node->left = NULL;
 	new_node->right = NULL;
