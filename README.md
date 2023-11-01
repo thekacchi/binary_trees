@@ -1,1 +1,1 @@
-Ninary Trees
+Binary Trees
