@@ -44,4 +44,6 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 
 int binary_tree_is_root(const binary_tree_t *node);
 
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+
 #endif /* _BINARY_TREES_H_ */
